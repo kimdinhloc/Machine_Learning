@@ -9,3 +9,5 @@ NGUYỄN HỮU THẮNG - 1712756
 
 Sau khi train model linear SVM với C=0.1 thì ta đạt được 94.63% cao hơn yêu cầu là 92%.  
 Còn đối với model RBF kennel với C = 10, Gamma = 0.1 thì ta đạt max tận 98.2% cao hơn yêu cầu là 96.4%.  
+#### Project này mất khoảng 70 tiếng train trên colab vì thế cần chia ra để tránh tình trạng train được 1 tiếng lại ngưng do colab không respone.  
+#### Quá trình train và lưu model mất khá nhiều thời gian nên phần report đã rút mất C=1000 và gamma=[0.05,0.005,0.0005,0.00005] vì thế để đạt độ chính xác cao hơn cần mất nhiều thời gian hơn.
